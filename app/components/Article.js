@@ -8,7 +8,7 @@ export default function Article({ iconXChosen, handleChoice, startGame }) {
         </div>
       </header>
       <menu>
-        <h1>PICK PLAYER'S MARK</h1>
+        <h1>PICK PLAYER&#39;S MARK</h1>
         <div id="menu-icon-div">
           <div
             id="icon-x"
