@@ -57,6 +57,7 @@ The learnings were massive with this one.
 - One way to resolve bugs is to forget your assumptions and stop asking questions around it. It's likely holding you back from a quick resolution. best you start on a blank slate and just ask ChatGPT to show you a simple implementation of a solution. You can then copy as need be.
 - Software architecture. That shit is key. Very necessary to ensure your code is modular, maintainable, and extensible. Wasted much time mid-way on this project rewriting code because I ignored it.
 - Definitely in months to come as my proficiency increases, I will write code like this much faster. This will probably be my last game app for a while, As in the immediate I'm looking to start contributing to Open source projects, as well as starting Technical writing.
+- npm run build kept throwing up errors. Eventually had to turn off an eslint rule from my .eslintrc.json file, and escape an apostrophe character in my Article component.
 
 ### Continued development
 
