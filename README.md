@@ -1,34 +1,79 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend Mentor - Tic Tac Toe solution
 
-## Getting Started
+This is a solution to the [Tic Tac Toe challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tic-tac-toe-game-Re7ZF_E2v). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-First, run the development server:
+## Table of contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+  - [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+  - [Author](#author)
+  - [Acknowledgments](#acknowledgments)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### The Challenge/User Stories
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Users should be able to:
 
-## Learn More
+- View the optimal layout for the game depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Play the game either solo vs the computer or multiplayer against another person
+- **Bonus 1**: Save the game state in the browser so that it’s preserved if the player refreshes their browser
+- **Bonus 2**: Instead of having the computer randomly make their moves, try making it clever so it’s proactive in blocking your moves and trying to win
 
-To learn more about Next.js, take a look at the following resources:
+### Screenshot
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![](/public/images/screenshot-desktop.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Links
 
-## Deploy on Vercel
+- Solution URL: [https://github.com/traez/tic-tac-toe-game](https://github.com/traez/tic-tac-toe-game)
+- Live Site URL: [https://tic-tac-toe-game-traez.vercel.app](https://tic-tac-toe-game-traez.vercel.app)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## My process
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+
+### What I learned
+
+The learnings were massive with this one.
+
+- ::backdrop CSS pseudo-element is not currently supported in Chrome/Next.js, so learnt to implement a dialog hack in using 2 Divs (backdrop and modal).
+- One way to resolve bugs is to forget your assumptions and stop asking questions around it. It's likely holding you back from a quick resolution. best you start on a blank slate and just ask ChatGPT to show you a simple implementation of a solution. You can then copy as need be.
+- Software architecture. That shit is key. Very necessary to ensure your code is modular, maintainable, and extensible. Wasted much time mid-way on this project rewriting code because I ignored it.
+- Definitely in months to come as my proficiency increases, I will write code like this much faster. This will probably be my last game app for a while, As in the immediate I'm looking to start contributing to Open source projects, as well as starting Technical writing.
+
+### Continued development
+
+- 2 fresh Next.js Projects, then Open Source and Technical Writing.
+
+### Useful resources
+
+Stackoverflow  
+YouTube  
+Google  
+ChatGPT
+
+## Author
+
+- Website - [Trae Zeeofor](https://github.com/traez)
+- Twitter - [@trae_z](https://twitter.com/trae_z)
+
+## Acknowledgments
+
+Dedicated to the Super Falcons. Keep making us proud at The Women's WorldCup 2023!

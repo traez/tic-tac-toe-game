@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Self-Taught Bootcamp</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-tictactoe.ico"
+    />
+    <link rel="stylesheet" type="text/css" href="zuri.css" />
+  </head>
+  <!-- Test 30 -->
+  <body>
+    <main>
+      <!-- Section VsCPU -->
+      <section id="scpu">
+        <div id="scpu-turn">
+          <div id="scpu-logodiv">
+            <img src="./images/logo.svg" alt="" id="scpu-logo" />
+          </div>
+          <div id="scpu-divb">
+            <div class="scpu-imgb-o"></div>
+            <b>TURN</b>
+          </div>
+          <div id="scpu-resdiv">
+            <img src="./images/icon-restart.svg" alt="" id="scpu-res" />
+          </div>
+        </div>
+        <div id="scpu-boxes">
+          <div class="scpu-box icon-x"></div>
+          <div class="scpu-box icon-o"></div>
+          <div class="scpu-box">3</div>
+          <div class="scpu-box">4</div>
+          <div class="scpu-box">5</div>
+          <div class="scpu-box">6</div>
+          <div class="scpu-box">7</div>
+          <div class="scpu-box">8</div>
+          <div class="scpu-box">9</div>
+        </div>
+        <div id="scpu-scores">
+          <div id="scpu-cpu" class="scpu-score3">
+            <div><span>X</span>(PLAYER 1)</div>
+            <!-- (CPU)/(PLAYER 1) -->
+            <div>2</div>
+          </div>
+          <div id="scpu-ties" class="scpu-score3">
+            <div>TIES</div>
+            <div>2</div>
+          </div>
+          <div id="scpu-play" class="scpu-score3">
+            <div><span>O</span>(PLAYER 2)</div>
+            <!-- (PLAYER)/(PLAYER 2) -->
+            <div>2</div>
+          </div>
+        </div>
+      </section>
+      <!-- Footer -->
+      <footer>
+        <a href="https://github.com/traez/tic-tac-toe-game" target="_blank"
+          >Tic Tac Toe Game</a
+        >
+        <h4>©2023 Trae Zeeofor</h4>
+      </footer>
+    </main>
+
+    <dialog open>
+      <aside>
+        <strong>ROUND TIED</strong>
+        <strong><span>X</span> TAKES THE ROUND; <span>YOU</span> WON</strong>
+      </aside>
+      <ul>
+        <li id="li-quit">QUIT</li>
+        <li id="li-next">NEXT ROUND</li>
+      </ul>
+    </dialog>
+
+    <script src="zuri.js"></script>
+  </body>
+</html>
